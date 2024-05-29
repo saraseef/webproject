@@ -1,0 +1,71 @@
+/*
+  white: #FFFFFF
+  accent 1: #577D4A
+  accent 2: #704A7D
+*/
+
+
+body{
+  padding: 0 36px 36px 45px;
+  font-size: 1.3em;
+}
+
+a {
+  color: #577D4A;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #704A7D;
+}
+
+
+
+div{
+  background-color: #577D4A;
+  width: 646px;
+  padding: 36px;
+  border-style: dashed;
+  border-width: 10px;
+  border-color: #704A7D;
+  margin: 36px;
+}
+
+p.styleblock {
+  background-color: #577D4A;
+  color: #FFFFFF;
+  width: 646px;
+  padding: 30px;
+  border-style: double;
+  border-width: 10px;
+  border-color: #704A7D;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  margin-left: 36px;
+
+}
+
+h1, h2, h3 {
+  color: #577D4A;
+}
+
+h1 {
+  text-align: center;
+}
+
+th, td {
+  /*border-color: #704A7D;
+  border-style: solid;
+  border-width 5px;*/
+  border:#704A7D solid 5px;
+  padding: 6px;
+
+}
+
+table{
+  border-collapse: collapse;
+}
+
+
+
