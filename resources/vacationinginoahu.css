@@ -1,0 +1,72 @@
+/*
+  grey-white: #d9d9d9
+  blue: #30627F
+  brown: #845235
+*/
+
+
+body{
+  padding: 0 100px 36px 30px;
+  font-size: 1.3em;
+}
+
+
+a {
+  color: #845235;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #30627F;
+}
+
+ol.styleblock {
+  background-color: #30627F;
+  width: 250px;
+  padding: 30px;
+  border-style: solid;
+  border-width: 6px;
+  border-color: #845235;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  margin-left: 36px;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/*
+block display
+specified width
+left and right margins must be equal - set both to auto
+*/
+
+h1, h2, h3 {
+  color: #30627F;
+}
+
+h1 {
+  text-align: center;
+}
+
+th, td {
+  /*border-color: #30627F;
+  border-style: solid;
+  border-width 7px;*/
+  border:#30627F solid 7px;
+  padding: 10px;
+
+}
+
+table{
+  border-collapse: collapse;
+}
+
+
+
